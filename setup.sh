@@ -7,6 +7,11 @@ echo "start auto setup"
 echo "xcode command line tools ..."
 xcode-select --install
 
+if [ "$(arch)" = "arm64" ]; then
+  echo "rosetta ..."
+  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+fi
+
 echo "homebrew ..."
 homebrew/install.sh
 
