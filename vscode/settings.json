@@ -12,6 +12,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "hadolint.hadolintPath": "/opt/homebrew/bin/hadolint",
+  "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
   "prettier.arrowParens": "avoid",
   "dotfiles.repository": "https://github.com/rusconn/dotfiles.git",
   "dotfiles.targetPath": "~/dotfiles",
