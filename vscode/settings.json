@@ -1,6 +1,5 @@
 {
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
