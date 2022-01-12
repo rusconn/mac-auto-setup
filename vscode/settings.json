@@ -49,5 +49,11 @@
   },
   "markdownlint.config": {
     "MD033": false
+  },
+  "files.exclude": {
+    "*.tsbuildinfo": true,
+    ".eslintcache": true,
+    ".next": true,
+    "node_modules": true
   }
 }
