@@ -25,3 +25,4 @@ cask "iina"
 cask "mounty"
 cask "the-unarchiver"
 cask "visual-studio-code"
+mas "Tag Editor Free", id: 984278082
