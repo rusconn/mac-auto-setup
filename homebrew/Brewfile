@@ -24,3 +24,4 @@ cask "google-chrome"
 cask "iina"
 cask "the-unarchiver"
 cask "visual-studio-code"
+mas "Tag Editor Free", id: 984278082
