@@ -24,4 +24,5 @@ cask "google-chrome"
 cask "iina"
 cask "the-unarchiver"
 cask "visual-studio-code"
+mas "RunCat", id: 1429033973
 mas "Tag Editor Free", id: 984278082
