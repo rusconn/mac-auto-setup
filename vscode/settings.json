@@ -6,7 +6,8 @@
   "editor.minimap.enabled": false,
   "editor.inlineSuggest.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
   },
   "terminal.integrated.profiles.osx": {
     "fish": {
