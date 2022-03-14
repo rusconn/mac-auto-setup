@@ -108,5 +108,25 @@
   {
     "key": "alt+cmd+right",
     "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+l",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+right",
+    "command": "-cursorWordEndRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+h",
+    "command": "cursorWordLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+left",
+    "command": "-cursorWordLeft",
+    "when": "textInputFocus"
   }
 ]
