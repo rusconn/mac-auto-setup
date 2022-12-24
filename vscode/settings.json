@@ -4,6 +4,7 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.inlineSuggest.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
