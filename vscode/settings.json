@@ -6,6 +6,8 @@
   "editor.minimap.enabled": false,
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.inlineSuggest.enabled": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 100,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.addMissingImports": true
