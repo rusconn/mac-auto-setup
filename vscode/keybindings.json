@@ -110,7 +110,7 @@
     "command": "-workbench.action.nextEditor"
   },
   {
-    "key": "alt+l",
+    "key": "ctrl+l",
     "command": "cursorWordEndRight",
     "when": "textInputFocus"
   },
@@ -120,7 +120,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "alt+h",
+    "key": "ctrl+g",
     "command": "cursorWordLeft",
     "when": "textInputFocus"
   },
@@ -128,5 +128,19 @@
     "key": "alt+left",
     "command": "-cursorWordLeft",
     "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-workbench.action.chat.clear",
+    "when": "hasChatProvider && inChat"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-notebook.centerActiveCell",
+    "when": "notebookEditorFocused"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.gotoLine"
   }
 ]
