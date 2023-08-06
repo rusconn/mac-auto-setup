@@ -18,4 +18,7 @@ homebrew/install.sh
 echo "vscode ..."
 vscode/install.sh
 
+echo "atcoder ..."
+atcoder/install.sh
+
 echo "done"
