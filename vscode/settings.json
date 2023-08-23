@@ -1,4 +1,5 @@
 {
+  "window.newWindowDimensions": "inherit",
   "telemetry.telemetryLevel": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.tabSize": 2,
