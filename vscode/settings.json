@@ -61,5 +61,6 @@
     ".eslintcache": true,
     ".next": true,
     "node_modules": true
-  }
+  },
+  "window.nativeTabs": true
 }
