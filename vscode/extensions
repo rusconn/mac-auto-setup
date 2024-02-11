@@ -1,3 +1,4 @@
+42crunch.vscode-openapi
 ajmnz.prisma-import
 ambar.bundle-size
 artdiniz.quitcontrol-vscode
@@ -9,6 +10,7 @@ bierner.markdown-footnotes
 bierner.markdown-mermaid
 bierner.markdown-preview-github-styles
 bierner.markdown-yaml-preamble
+biomejs.biome
 bmalehorn.vscode-fish
 bradlc.vscode-tailwindcss
 ckolkman.vscode-postgres
@@ -38,6 +40,7 @@ ms-python.vscode-pylance
 ms-vscode-remote.remote-containers
 ms-vscode.test-adapter-converter
 Prisma.prisma
+redhat.vscode-yaml
 ritwickdey.LiveServer
 rust-lang.rust-analyzer
 serayuzgur.crates
@@ -48,6 +51,7 @@ tamasfe.even-better-toml
 tauri-apps.tauri-vscode
 timonwong.shellcheck
 tomoki1207.pdf
+typespec.typespec-vscode
 vadimcn.vscode-lldb
 wmaurer.change-case
 YoavBls.pretty-ts-errors
