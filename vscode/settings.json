@@ -67,10 +67,10 @@
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "markdown-preview-enhanced.mathRenderingOption": "MathJax",
   "files.exclude": {
-    "*.tsbuildinfo": true,
-    ".eslintcache": true,
-    ".next": true,
-    "node_modules": true
+    "**/tsconfig.tsbuildinfo": true,
+    "**/.eslintcache": true,
+    "**/.next": true,
+    "**/node_modules": true
   },
   "window.nativeTabs": true,
   "window.customTitleBarVisibility": "never"
