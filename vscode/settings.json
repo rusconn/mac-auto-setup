@@ -31,7 +31,6 @@
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "hadolint.hadolintPath": "/opt/homebrew/bin/hadolint",
   "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
-  "prettier.arrowParens": "avoid",
   "dotfiles.repository": "https://github.com/rusconn/dotfiles.git",
   "dotfiles.targetPath": "~/dotfiles",
   "dotfiles.installCommand": "~/dotfiles/install.sh",
