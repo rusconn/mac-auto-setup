@@ -3,6 +3,7 @@
   "window.newWindowDimensions": "inherit",
   "telemetry.telemetryLevel": "off",
   "editor.bracketPairColorization.enabled": true,
+  "editor.hover.delay": 500,
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
