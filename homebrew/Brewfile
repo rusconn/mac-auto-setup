@@ -47,7 +47,6 @@ mas "Pages", id: 409201541
 mas "RunCat", id: 1429033973
 mas "Tag Editor Lite", id: 984278082
 vscode "42crunch.vscode-openapi"
-vscode "ajmnz.prisma-import"
 vscode "ambar.bundle-size"
 vscode "artdiniz.quitcontrol-vscode"
 vscode "astro-build.astro-vscode"
