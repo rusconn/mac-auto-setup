@@ -10,7 +10,8 @@
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.inlineSuggest.enabled": true,
   "editor.linkedEditing": true,
-  "editor.wordWrap": "bounded",
+  "editor.suggest.showWords": false,
+  "editor.wordWrap": "off",
   "editor.wordWrapColumn": 100,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
