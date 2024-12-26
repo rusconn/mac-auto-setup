@@ -17,6 +17,8 @@
     "source.fixAll.eslint": "explicit",
     "source.addMissingImports": "explicit"
   },
+  "explorer.sortOrderLexicographicOptions": "upper",
+  "git-graph.date.format": "ISO Date & Time",
   "terminal.integrated.profiles.osx": {
     "fish": {
       "path": "/opt/homebrew/bin/fish",
