@@ -17,6 +17,7 @@
     "source.fixAll.eslint": "explicit",
     "source.addMissingImports": "explicit"
   },
+  "explorer.autoReveal": "focusNoScroll",
   "explorer.sortOrderLexicographicOptions": "upper",
   "git-graph.date.format": "ISO Date & Time",
   "terminal.integrated.profiles.osx": {
