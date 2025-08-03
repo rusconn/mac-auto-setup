@@ -20,6 +20,12 @@
   "explorer.autoReveal": "focusNoScroll",
   "explorer.sortOrderLexicographicOptions": "upper",
   "git-graph.date.format": "ISO Date & Time",
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.rangeVariableTypes": true,
   "terminal.integrated.profiles.osx": {
     "fish": {
       "path": "/opt/homebrew/bin/fish",
@@ -41,6 +47,11 @@
   "files.associations": {
     "pre-commit": "shellscript",
     "*.plist": "plist"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
