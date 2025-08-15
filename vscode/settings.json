@@ -1,69 +1,18 @@
 {
   "$schema": "vscode://schemas/settings/user",
-  "window.newWindowDimensions": "inherit",
-  "telemetry.telemetryLevel": "off",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.hover.delay": 500,
-  "editor.tabSize": 2,
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "editor.inlayHints.enabled": "offUnlessPressed",
-  "editor.inlineSuggest.enabled": true,
-  "editor.linkedEditing": true,
-  "editor.suggest.showWords": false,
-  "editor.wordWrap": "off",
-  "editor.wordWrapColumn": 100,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.addMissingImports": "explicit"
-  },
-  "explorer.autoReveal": "focusNoScroll",
-  "explorer.sortOrderLexicographicOptions": "upper",
-  "git-graph.date.format": "ISO Date & Time",
-  "go.inlayHints.assignVariableTypes": true,
-  "go.inlayHints.compositeLiteralFields": true,
-  "go.inlayHints.compositeLiteralTypes": true,
-  "go.inlayHints.constantValues": true,
-  "go.inlayHints.functionTypeParameters": true,
-  "go.inlayHints.rangeVariableTypes": true,
-  "terminal.integrated.profiles.osx": {
-    "fish": {
-      "path": "/opt/homebrew/bin/fish",
-      "args": ["-i"]
-    }
-  },
-  "terminal.integrated.defaultProfile.osx": "fish",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "hadolint.hadolintPath": "/opt/homebrew/bin/hadolint",
-  "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
-  "dotfiles.repository": "https://github.com/rusconn/dotfiles.git",
-  "dotfiles.targetPath": "~/dotfiles",
-  "dotfiles.installCommand": "~/dotfiles/install.sh",
-  "files.associations": {
-    "pre-commit": "shellscript",
-    "*.plist": "plist"
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
   },
   "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.insertSpaces": false,
     "editor.tabSize": 4
   },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[rust]": {
-    "editor.tabSize": 4
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -71,24 +20,76 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dotfiles.installCommand": "~/dotfiles/install.sh",
+  "dotfiles.repository": "https://github.com/rusconn/dotfiles.git",
+  "dotfiles.targetPath": "~/dotfiles",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.hover.delay": 500,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.suggest.showWords": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "editor.wordWrapColumn": 100,
+  "explorer.autoReveal": "focusNoScroll",
+  "explorer.sortOrderLexicographicOptions": "upper",
+  "files.associations": {
+    "*.plist": "plist",
+    "pre-commit": "shellscript"
+  },
+  "files.exclude": {
+    "**/.eslintcache": true,
+    "**/.next": true,
+    "**/node_modules": true,
+    "**/tsconfig.tsbuildinfo": true
+  },
+  "git-graph.date.format": "ISO Date & Time",
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown-preview-enhanced.mathRenderingOption": "MathJax",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "markdownlint.config": {
     "MD033": false
   },
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
-  "markdown-preview-enhanced.mathRenderingOption": "MathJax",
-  "files.exclude": {
-    "**/tsconfig.tsbuildinfo": true,
-    "**/.eslintcache": true,
-    "**/.next": true,
-    "**/node_modules": true
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.profiles.osx": {
+    "fish": {
+      "args": ["-i"],
+      "path": "fish"
+    }
   },
-  "window.nativeTabs": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "window.customTitleBarVisibility": "never",
+  "window.nativeTabs": true,
+  "window.newWindowDimensions": "inherit",
   "workbench.editor.showTabs": "none"
 }

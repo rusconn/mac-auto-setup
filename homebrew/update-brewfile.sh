@@ -2,4 +2,4 @@
 
 cd "$(dirname "$0")" || exit
 
-brew bundle dump --force --no-lock
+brew bundle dump --force
